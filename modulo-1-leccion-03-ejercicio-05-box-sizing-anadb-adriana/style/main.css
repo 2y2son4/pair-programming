@@ -1,0 +1,19 @@
+/** {
+   border: 2px solid blue; 
+}*/
+
+.divs {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 5px solid red;
+    padding: 2px;
+}
+ 
+#surikato {
+    width: 100px;
+    height: 100px;
+}
+
+/*Esto es un comentario
+multilínea en css*/
