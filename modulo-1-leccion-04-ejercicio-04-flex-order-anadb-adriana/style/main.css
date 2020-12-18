@@ -1,0 +1,47 @@
+* {
+    font-family: Tahoma, sans-serif;
+    border: 1px solid purple;
+    padding: 2px;
+    font-size: medium;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.item {
+    box-sizing: border-box;
+    flex-direction: row;
+    order: 1;
+}
+
+.item-1 {
+    width: 50%;
+}
+
+.item-2 {
+    width: 50%;
+}
+
+.item-3 {
+    width: 50%;
+}
+
+.item-4 {
+    width: 50%;
+}
+
+.item-5 {
+    width: 100%;
+    order: -1;
+}
+
+.image {
+    background-color: rgb(180, 113, 180);
+    display: block;
+    height: 30%;
+}
