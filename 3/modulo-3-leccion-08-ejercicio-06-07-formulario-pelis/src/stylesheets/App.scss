@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input,
+.select {
+  height: 50px;
+}
+.input,
+.select,
+.textarea {
+  margin: 15px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  &:hover {
+    transform: scale(1.1);
+    background-color: #61dafb;
+  }
+}
+
+.card {
+  width: 300px;
+  min-height: 400px;
+  background-color: #61dafb;
+  border-radius: 15px;
+  border: white solid 5px;
+  color: #282c34;
+  text-align: left;
+  &__title {
+    font-size: 28px;
+  }
+  &__description,
+  &__language {
+    font-size: 16px;
+  }
+  &__title,
+  &__description,
+  &__language {
+    padding: 0 15px;
+    border-bottom: white solid 1px;
+  }
+}

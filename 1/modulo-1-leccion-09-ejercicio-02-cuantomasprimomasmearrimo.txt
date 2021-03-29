@@ -1,0 +1,39 @@
+.card {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    &--dark {
+        background-color: #000;
+        color: #fff;
+    }
+    &--light {
+        background-color: #fff;
+        color: #000;
+    }
+    &:hover {
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+}
+
+
+--------------------------------------------------
+
+.card {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.card--dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.card--light {
+  background-color: #fff;
+  color: #000;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}

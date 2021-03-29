@@ -1,0 +1,7 @@
+* {
+  display: block;
+}
+.input--flag {
+  width: 15px;
+  position: absolute;
+}

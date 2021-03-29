@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lección 1.10 | Ejercicio 05</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <form action="">
+      <label for="name"
+        >Nombre
+        <input id="name" type="text" required />
+        <input id="name" type="text" required />
+      </label>
+      <label for="user"
+        >Nombre de usuaria
+        <input id="user" type="text" required />
+      </label>
+      <label for="password"
+        >Contraseña
+        <input type="password" id="password" required />
+      </label>
+      <label for="password"
+        >Confirma tu contraseña
+        <input type="password" id="password" required />
+      </label>
+      <label for=""
+        >Fecha de nacimiento
+        <input type="number" min="1" max="31" placeholder="día" required />
+        <select name="month" id="" required > <!-- ¿Aquí se tendría que poner required? -->
+          <option value="">Mes</option>
+          <option value="1">Enero</option>
+          <option value="2">Febrero</option>
+          <option value="3">Mar</option>
+          <option value="4">Abr</option>
+          <option value="5">may</option>
+          <option value="6">jun</option>
+          <option value="7">jul</option>
+          <option value="8">ago</option>
+          <option value="9">sep</option>
+          <option value="10">oct</option>
+          <option value="11">nov</option>
+          <option value="12">dic</option>
+        </select>
+        <input type="number" min="1900" max="2021" placeholder="año" required />
+      </label>
+      <label for="gender"
+        >Género
+        <select name="gender" id="gender">
+          <option value="">Selecciona tu género</option>
+          <option value="male">Masculino</option>
+          <option value="female">Femenino</option>
+          <option value="other">Otro</option>
+        </select>
+      </label>
+      <label for=""
+        >Teléfono móvil
+        <img class="input--flag" src="./images/flag-spain.png" alt="España" />
+        <input
+          type="tel"
+          pattern="^(\+34|0034|34)?[ -]*(6|7)[ -]*([0-9][ -]*){8}$"
+          required />
+      </label>
+      <label for=""
+        >Tu dirección actual de email
+        <input type="email" required />
+      </label>
+      <label for="country">
+        <select name="country" id="country" required > <!-- ¿Aquí se tendría que poner required? -->
+          <option value="spain">España</option>
+          <option value="1">Reino Unido</option>
+          <option value="2">Francia</option>
+          <option value="3">Alemania</option>
+          <option value="4">Bélgica</option>
+          <option value="5">Paises Bajos</option>
+          <option value="6">Italia</option>
+          <option value="7">USA</option>
+          <option value="8">Mexico</option>
+          <option value="9">Perú</option>
+        </select>
+      </label>
+      <input type="submit" value="Siguiente paso" />
+    </form>
+  </body>
+</html>

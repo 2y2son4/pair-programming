@@ -1,0 +1,13 @@
+.page__header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+  background-color: aquamarine;
+  height: 75px;
+  @media all and (min-width:768px) {
+    height: 100px;
+  }
+  @media all and (min-width:1280px) {
+    height: 110px;
+  }
+}
